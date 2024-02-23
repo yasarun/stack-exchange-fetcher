@@ -48,13 +48,13 @@ def save_to_csv(df: pd.DataFrame, filename: str):
     df.to_csv(filename)
 
 
-def main(query):
+def getResults(query, key, access_token):
     query = query
     page = 1
     params = {
         'q': query,
-        'key': 'YOUR_KEY',
-        'access_token': 'YOUR_ACCESS_TOKEN',
+        'key': key,
+        'access_token': access_token,
         'pagesize': 100,
         'site': 'stackoverflow',
         'order': 'asc',
@@ -80,5 +80,8 @@ def main(query):
     save_to_csv(df_combined, query + ".csv")
 
 
-# Uncomment to run the main function
-# main()
+# Uncomment to run the getResults function
+# getResults(query, key, access_token)
+
+
+# results will be in your project folder.
