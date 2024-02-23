@@ -10,9 +10,10 @@ pip install stack-fetcher-bakircius
 
 1- Get your key and token from stackexchange (https://stackapps.com/users/login?returnurl=/apps/oauth/register)
 
-2- copy sample code below.
+2- sample code below.
 
-'''
+```
 import stack_fetcher_bakircius as sf
 sf.getResults("your_search_query", "your_key", "your_access_token")
-'''
+```
+
