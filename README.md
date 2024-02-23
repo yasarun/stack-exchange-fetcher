@@ -2,6 +2,10 @@
 
 This project fetches StackOverflow API
 
-# Use
+# install
+
+pip install stack-fetcher-bakircius
+
+# for use
 
 1- Get your key and token from stackexchange (https://stackapps.com/users/login?returnurl=/apps/oauth/register)
