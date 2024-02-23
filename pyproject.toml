@@ -1,6 +1,6 @@
 [project]
 name = "stack_fetcher_bakircius"
-version = "0.0.1"
+version = "0.5.0"
 authors = [
   { name="bakircius", email="burakbakirci@gmail.com" },
 ]
